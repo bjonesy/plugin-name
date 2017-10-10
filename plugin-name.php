@@ -14,7 +14,7 @@
  * Description:        Plugin boilerplate
  * Version:            1.0.0
  * Author:             Brandon Jones
- * Author URI:         https://brandonsj.ms/
+ * Author URI:         https://brandonsj.me/
  * License:            GPL-2.0+
  * License URI:        http://www.gnu.org/licenses/gpl-2.0.txt
  */
