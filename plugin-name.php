@@ -52,7 +52,7 @@ function plugin_start() {
 	$custom_fields = new Admin\Fields_Config();
 	$custom_fields->init();
 	/**
-	 * Add video endpoint to WP API
+	 * Add custom endpoint to WP API
 	 */
 	$custom_endpoint = new Lib\Endpoints();
 	$custom_endpoint->init();
