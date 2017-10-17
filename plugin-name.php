@@ -25,7 +25,7 @@ use PluginName\Admin;
 use PluginName\Lib;
 
 // Plugin file path.
-define( 'PlUGINNAME_PLUGIN_FILE', __FILE__ );
+define( 'PLUGINNAME_PLUGIN_FILE', __FILE__ );
 
 // This file can't be accessed directly.
 defined( 'WPINC' ) || die;
