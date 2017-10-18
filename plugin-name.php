@@ -22,6 +22,7 @@
 namespace PluginName;
 
 use PluginName\Admin;
+use PluginName\Pub;
 use PluginName\Lib;
 
 // Plugin file path.
@@ -51,6 +52,16 @@ function plugin_start() {
 	 */
 	$custom_fields = new Admin\Fields_Config();
 	$custom_fields->init();
+	/**
+	 * Add admin notice
+	 */
+	$admin_notice = new Admin\Admin_Notice();
+	$admin_notice->init();
+	/**
+	 * Add admin notice
+	 */
+	$public_notice = new Pub\Public_Notice();
+	$public_notice->init();
 	/**
 	 * Add custom endpoint to WP API
 	 */
